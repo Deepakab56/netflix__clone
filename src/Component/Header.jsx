@@ -14,7 +14,7 @@ function Header(props) {
     const {video , platform} = props
     const {data,status,error} = useSelector(selectheadervideo)
     const[isPlay,setIsplay]=useState(false)
-    console.log(data)
+    // console.log(data)
 const dispatch = useDispatch()
 
 useEffect(()=>{
